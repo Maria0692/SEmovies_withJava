@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Discover the wonders of science at the Community Science Museum! Join us for interactive exhibits, special events, and educational experiences designed for all ages. Explore our diverse exhibition spaces and ignite your passion for learning. Contact us today!">
+    <title>Community Science Museum - Explore Science and Innovation</title>
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"><a href="#"><img src="images/SquareEyes_Logo.png" /></a></li>
+                <input type="checkbox" id="check" />
+
+
+
+                <span class="menu">
+                    <li><input type="text" placeholder="search..."></li>
+                    <li><a href="./tickets.html">Library</a></li>
+                    <li><a href="./visitus.html">About</a></li>
+                    <li><a href="./tickets.html">Logg inn</a></li>
+                    <li><a href="/checkout/index.html">
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                        <span id="cart-count">0</span>
+                    </a></li>
+
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <img src="images/bg.jpg" alt="Top Image" class="top-image">
+
+        <div class="tags">
+            <button>Comedy</button>
+            <button>Crime</button>
+            <button>Fantasy</button>
+            <button>Si-fi</button>
+            <button>Comedy</button>
+            <button>Horror</button>
+            <button>Musical</button>
+            <button>Romance</button>
+            <button>Drama</button>
+            <button>Thriller</button>
+            <button>Anime</button>
+            <button>Classic</button>
+            <button>More</button>
+        </div>
+
+        <section class="movie-section">
+
+            <h2>Movies</h2>
+
+            <div class="movie-grid" id="product-list">
+                
+            </div>
+
+        </section>
+    </main>
+
+
+<script src="js/index.js"></script>
+</body>
+
+</html>

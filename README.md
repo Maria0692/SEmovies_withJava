@@ -1,1 +1,1 @@
-# SEmovies_withJava
+# SEmovies
